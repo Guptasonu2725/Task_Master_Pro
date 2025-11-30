@@ -29,6 +29,11 @@ This project demonstrates the use of RecyclerView, Room/SQLite, Custom Adapters 
 
 ✔️ Floating Action Button (FAB) for quick task creation
 
+⭐ UI Interface
+
+<img width="746" height="835" alt="Image" src="https://github.com/user-attachments/assets/0e19d5b6-5e65-41cb-8e67-d7ce93c2ffae" />
+
+
 🛠️ Tech Stack
 
 1. Frontend (UI) -	XML Layouts, Material Components
