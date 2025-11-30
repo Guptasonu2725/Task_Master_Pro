@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskMaster Pro</string>
+
+    <!-- Main Screen -->
+    <string name="my_tasks">My Tasks</string>
+    <string name="stay_organized">Stay organized and productive</string>
+    <string name="add_new_task">Add new task</string>
+    <string name="no_tasks">No tasks yet!</string>
+    <string name="start_adding_tasks">Start adding tasks to get organized</string>
+    <string name="search_tasks">Search tasks...</string>
+
+    <!-- Filters -->
+    <string name="all_tasks">All</string>
+    <string name="today">Today</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="completed">Completed</string>
+
+    <!-- Statistics -->
+    <string name="total_tasks">Total</string>
+    <string name="pending_tasks">Pending</string>
+
+    <!-- Task Form -->
+    <string name="add_task_title">Add New Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_title_hint">Enter task title</string>
+    <string name="task_description">Description</string>
+    <string name="task_description_hint">Add description (optional)</string>
+    <string name="due_date">Due Date</string>
+    <string name="priority">Priority</string>
+
+    <!-- Priority -->
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+
+    <!-- Buttons -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Messages -->
+    <string name="task_added_success">Task added successfully</string>
+    <string name="task_updated_success">Task updated successfully</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="enter_task_title">Please enter a task title</string>
+
+    <!-- Content Descriptions -->
+    <string name="ic_add_desc">Add task</string>
+    <string name="ic_edit_desc">Edit task</string>
+    <string name="ic_delete_desc">Delete task</string>
+    <string name="ic_check_desc">Complete task</string>
+    <string name="ic_filter_desc">Filter</string>
+    <string name="settings">Settings</string>
+</resources>

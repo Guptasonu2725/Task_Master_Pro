@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/bg_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Priority"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="20dp" />
+
+    <RadioGroup
+        android:id="@+id/priority_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Low Priority Option -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/bg_priority_option"
+            android:layout_marginBottom="12dp">
+
+            <RadioButton
+                android:id="@+id/priority_low_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Priority"
+                android:textSize="16sp"
+                android:textColor="@color/text_dark"
+                android:buttonTint="@color/priority_low" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@color/priority_low"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Medium Priority Option -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/bg_priority_option"
+            android:layout_marginBottom="12dp">
+
+            <RadioButton
+                android:id="@+id/priority_medium_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Priority"
+                android:textSize="16sp"
+                android:textColor="@color/text_dark"
+                android:buttonTint="@color/priority_medium" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@color/priority_medium"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <!-- High Priority Option -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:background="@drawable/bg_priority_option"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/priority_high_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Priority"
+                android:textSize="16sp"
+                android:textColor="@color/text_dark"
+                android:buttonTint="@color/priority_high" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@color/priority_high"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </RadioGroup>
+
+    <!-- Dialog Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:spacing="10dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/cancel_priority_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/bg_button_secondary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/confirm_priority_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Confirm"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
