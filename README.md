@@ -1,13 +1,13 @@
-📱 TaskMaster Pro
+<h1>📱 TaskMaster Pro</h1>
 
 A simple, elegant, and powerful Task Management App built in Android Studio with full CRUD operations and a clean UI.
 
-🚀 Overview
+<h2>🚀 Overview</h2>
 
 TaskMaster Pro helps users efficiently manage daily tasks with features like task creation, editing, deletion, priority labels, and filtering. The app provides a smooth and modern interface with real-time task statistics such as Total Tasks, Completed, and Pending.
 This project demonstrates the use of RecyclerView, Room/SQLite, Custom Adapters and Material UI components.
 
-✨ Features
+<h2>✨ Features</h2>
 
 ✔️ Add new tasks with title, description & due date
 
@@ -29,12 +29,11 @@ This project demonstrates the use of RecyclerView, Room/SQLite, Custom Adapters 
 
 ✔️ Floating Action Button (FAB) for quick task creation
 
-⭐ UI Interface
+<h2>📸 Screenshots</h2>
 
-<img width="746" height="835" alt="Image" src="https://github.com/user-attachments/assets/0e19d5b6-5e65-41cb-8e67-d7ce93c2ffae" />
+<img width="367" height="843" alt="Image" src="https://github.com/user-attachments/assets/e8161f5d-b2f7-4e1f-b2c0-dbaafb298bdb" /> <img width="364" height="840" alt="Image" src="https://github.com/user-attachments/assets/6ad660d2-ccc2-4850-ade0-11b429523311" />
 
-
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
 1. Frontend (UI) -	XML Layouts, Material Components
 
@@ -47,7 +46,7 @@ This project demonstrates the use of RecyclerView, Room/SQLite, Custom Adapters 
 5. Build System	- Gradle
 
 
-📂 Project Structure 
+<h2>📂 Project Structure</h2> 
 
 app/
 
@@ -78,7 +77,7 @@ app/
 └── build.gradle
 
 
-⚙️ Installation & Setup
+<h2>⚙️ Installation & Setup</h2>
 
 1. Clone the repository
 
@@ -98,16 +97,16 @@ app/
 
         Hit Run ▶️
 
-🤝 Contribution
+<h2>🤝 Contribution</h2>
 
   Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
 
 
-📜 License
+<h2>📜 License</h2>
 
 This project is licensed under the MIT License – feel free to use and modify it.
 
 
-👨‍💻 Developed By
+<h2>👨‍💻 Developed By</h2>
 
     Sonu Gupta  
